@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Demo from "./Demo";
+import Login from './Components/Loginpage';
 import PrimarySearchAppBar from './Components/Appbar';
 
 function App() {
   return (
     <div className="App">
      <PrimarySearchAppBar/>
-     <Demo/>
+     <h1>React App</h1>
+     <Login/>
     </div>
   );
 }
